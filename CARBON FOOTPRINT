@@ -1,0 +1,219 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Carbon Footprint
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: Arial, sans-serif;
+      font-weight: normal;
+    }
+    h1 {
+      font-family: Arial, sans-serif;
+      font-weight: normal;
+      letter-spacing: 0.15em;
+    }
+    h2, h3, label, p, a, button {
+      font-family: Arial, sans-serif;
+      font-weight: normal;
+    }
+  </style>
+ </head>
+ <body class="bg-white text-black">
+  <!-- Header -->
+  <header class="bg-[#b9c8b9] flex items-center justify-between px-6 py-4">
+   <div class="flex items-center space-x-2">
+    <img alt="Rolsatech Technologies logo with green car and gears" class="h-10 w-auto" height="40" src="https://storage.googleapis.com/a1aa/image/90d7cfd4-1dbc-45f2-c677-0e1f27802aff.jpg" width="120"/>
+   </div>
+   <nav class="hidden md:flex space-x-8 text-sm font-normal">
+    <a class="hover:underline" href="#">
+     Home
+    </a>
+    <a class="hover:underline" href="#">
+     About us
+    </a>
+    <a class="hover:underline" href="#">
+     Energy
+    </a>
+    <a class="hover:underline" href="#">
+     Carbon Calc
+    </a>
+    <a class="hover:underline" href="#">
+     Schedule
+    </a>
+    <a class="text-black" href="#">
+     <i class="fas fa-user-circle text-lg">
+     </i>
+    </a>
+   </nav>
+  </header>
+  <!-- Main content -->
+  <main class="max-w-3xl mx-auto px-6 py-12">
+   <h1 class="text-center text-5xl mb-1">
+    CARBON
+   </h1>
+   <h2 class="text-center text-sm tracking-widest mb-10">
+    FOOTPRINT
+   </h2>
+   <form id="carbonForm" class="border border-gray-200 rounded-md p-4 max-w-xl mx-auto mb-12" method="POST" onsubmit="return calculateCarbonFootprint(event)">
+    <label class="block text-xs mb-1" for="flights">
+     Travel: (Flights per year)
+    </label>
+    <input class="w-full border border-gray-200 rounded px-3 py-2 text-xs mb-4 placeholder:text-gray-300" id="flights" name="flights" placeholder="7" type="number" min="0" step="1"/>
+    <label class="block text-xs mb-1" for="car">
+     Car (miles/week):
+    </label>
+    <input class="w-full border border-gray-200 rounded px-3 py-2 text-xs mb-4 placeholder:text-gray-300" id="car" name="car" placeholder="67mph" type="number" min="0" step="any"/>
+    <label class="block text-xs mb-1" for="electricity">
+     Electricity (kWh/month)
+    </label>
+    <input class="w-full border border-gray-200 rounded px-3 py-2 text-xs mb-4 placeholder:text-gray-300" id="electricity" name="electricity" placeholder="150" type="number" min="0" step="any"/>
+    <label class="block text-xs mb-1" for="gasoil">
+     Gas/Oil (units/months)
+    </label>
+    <textarea class="w-full border border-gray-200 rounded px-3 py-2 text-xs mb-4 placeholder:text-gray-300 resize-none" id="gasoil" name="gasoil" placeholder="20L" rows="2"></textarea>
+    <button class="w-full bg-[#0c1a4d] text-white text-xs py-2 rounded" type="submit">
+     Calculate
+    </button>
+   </form>
+   <section class="max-w-xl mx-auto mt-8 text-center" id="resultSection" style="display:none;">
+    <p id="resultText" class="inline-block bg-[#0c1a4d] text-white text-lg px-6 py-3 rounded-lg shadow-lg transition-transform transform scale-95 opacity-0">
+    </p>
+   </section>
+   <section class="max-w-xl mx-auto mt-8 text-center text-xs text-[#0c1a4d]">
+    <h3 class="mb-2">
+     Recommendations / Tips
+    </h3>
+    <p>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum.
+    </p>
+    <div class="flex flex-col md:flex-row md:items-center md:space-x-8 mt-6">
+     <img alt="Electric car charging station with white car plugged in" class="w-full md:w-1/2 rounded" height="160" src="https://storage.googleapis.com/a1aa/image/64585a1d-6ff3-4c1b-fce0-a54316a53fe4.jpg" width="320"/>
+     <div class="mt-6 md:mt-0 md:w-1/2 flex flex-col items-center md:items-start">
+      <p class="text-sm text-center md:text-left mb-6">
+       Change to electric car now to lessen your carbon footprint
+      </p>
+      <button class="bg-[#0c1a4d] text-white text-xs rounded-full px-8 py-2" type="button">
+       Learn more now
+      </button>
+     </div>
+    </div>
+   </section>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-[#b9c8b9] px-6 py-8 text-xs text-gray-700">
+   <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-end md:space-x-40">
+    <div class="flex flex-col items-start space-y-4 md:mr-auto">
+     <img alt="Rolsatech Technologies logo with green car and gears" class="h-10 w-auto" height="40" src="https://storage.googleapis.com/a1aa/image/90d7cfd4-1dbc-45f2-c677-0e1f27802aff.jpg" width="120"/>
+     <div class="flex space-x-4 text-lg">
+      <a aria-label="Instagram" class="hover:text-black" href="#">
+       <i class="fab fa-instagram">
+       </i>
+      </a>
+      <a aria-label="Facebook" class="hover:text-black" href="#">
+       <i class="fab fa-facebook-f">
+       </i>
+      </a>
+      <a aria-label="Email" class="hover:text-black" href="#">
+       <i class="fas fa-envelope">
+       </i>
+      </a>
+      <a aria-label="LinkedIn" class="hover:text-black" href="#">
+       <i class="fab fa-linkedin-in">
+       </i>
+      </a>
+     </div>
+     <div class="flex space-x-6 text-gray-700">
+      <a class="hover:underline" href="#">
+       PRIVACY POLICY
+      </a>
+      <a class="hover:underline" href="#">
+       TERMS &amp; CONDITIONS
+      </a>
+     </div>
+    </div>
+    <div class="grid grid-cols-2 gap-x-20 gap-y-2 md:gap-x-40 md:gap-y-2 text-gray-700">
+     <a class="hover:underline" href="#">
+      About us
+     </a>
+     <a class="hover:underline" href="#">
+      CTA requesting analysis
+     </a>
+     <a class="hover:underline" href="#">
+      How to reduce carbon footprint
+     </a>
+     <a class="hover:underline" href="#">
+      Green energy products
+     </a>
+     <a class="hover:underline" href="#">
+      Optimising energy use
+     </a>
+     <a class="hover:underline" href="#">
+      Contact us
+     </a>
+     <a class="hover:underline" href="#">
+      Electric Vehicle charging stations
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   function calculateCarbonFootprint(event) {
+      event.preventDefault();
+
+      const flights = parseFloat(document.getElementById('flights').value) || 0;
+      const carMilesPerWeek = parseFloat(document.getElementById('car').value) || 0;
+      const electricityKwhPerMonth = parseFloat(document.getElementById('electricity').value) || 0;
+      const gasOilInput = document.getElementById('gasoil').value.trim();
+
+      let gasOilLitersPerMonth = 0;
+      if (gasOilInput) {
+        const match = gasOilInput.match(/([\d.]+)\s*(l|liters|liter|gal|gallon|gallons)?/i);
+        if (match) {
+          let value = parseFloat(match[1]);
+          let unit = match[2] ? match[2].toLowerCase() : 'l';
+          if (unit === 'gal' || unit === 'gallon' || unit === 'gallons') {
+            value = value * 3.78541;
+          }
+          gasOilLitersPerMonth = value;
+        }
+      }
+
+      const flightEmissions = flights * 0.25;
+      const carEmissions = (carMilesPerWeek * 52) * 0.404 / 1000;
+      const electricityEmissions = electricityKwhPerMonth * 12 * 0.000417;
+      const gasOilEmissions = gasOilLitersPerMonth * 12 * 0.00268;
+
+      const totalEmissions = flightEmissions + carEmissions + electricityEmissions + gasOilEmissions;
+
+      const resultSection = document.getElementById('resultSection');
+      const resultText = document.getElementById('resultText');
+
+      resultText.textContent = `Estimated annual carbon footprint: ${totalEmissions.toFixed(2)} metric tons CO2`;
+      resultSection.style.display = 'block';
+
+      // Animate result: scale up and fade in
+      resultText.style.opacity = '0';
+      resultText.style.transform = 'scale(0.95)';
+      setTimeout(() => {
+        resultText.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+        resultText.style.opacity = '1';
+        resultText.style.transform = 'scale(1)';
+      }, 50);
+
+      resultSection.scrollIntoView({ behavior: 'smooth' });
+
+      return false;
+    }
+  </script>
+ </body>
+</html>
