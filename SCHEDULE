@@ -1,0 +1,140 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Schedule
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-white">
+  <!-- Header -->
+  <header class="bg-[#c4d0c3] flex items-center justify-between px-6 py-4">
+   <div class="flex items-center space-x-2">
+    <img alt="Rolsa Technologies logo with green car and blue gears" class="h-10 w-auto" height="40" src="https://storage.googleapis.com/a1aa/image/1e75225d-6709-4fde-a5c7-e6b498081a9e.jpg" width="120"/>
+   </div>
+   <nav class="hidden md:flex items-center space-x-6 text-[13px] text-black font-normal">
+    <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+     Home
+    </a>
+    <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+     About us
+    </a>
+    <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+     Energy
+    </a>
+    <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+     Carbon Calc
+    </a>
+    <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+     Schedule
+    </a>
+    <a aria-label="User account" class="text-black hover:text-gray-900 transition-colors duration-200" href="#">
+     <i class="fas fa-user-circle text-lg">
+     </i>
+    </a>
+   </nav>
+  </header>
+  <!-- Main content -->
+  <main class="flex flex-col items-center py-10 px-4 relative max-w-md mx-auto">
+   <img alt="Illustration of two workers installing electrical equipment with blue background and icons" class="mb-6" height="180" src="https://storage.googleapis.com/a1aa/image/801b9b18-b23b-4a3c-fb49-c313b7acbfdc.jpg" width="300"/>
+   <h1 class="text-[72px] font-extralight tracking-widest leading-none absolute top-10 left-1/2 -translate-x-1/2 text-center w-full pointer-events-none select-none">
+    SCHEDULE
+   </h1>
+   <form autocomplete="off" class="w-full bg-white border border-gray-200 rounded-md p-6 shadow-sm z-10 -mt-32">
+    <h2 class="text-xl font-normal mb-4">
+     Installations
+    </h2>
+    <label class="block text-sm font-normal mb-1" for="fullname">
+     Full name
+    </label>
+    <input class="w-full mb-4 px-3 py-2 border border-gray-300 rounded text-xs placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-blue-600" id="fullname" name="fullname" placeholder="James Charles" type="text"/>
+    <label class="block text-sm font-normal mb-1" for="email">
+     Email
+    </label>
+    <input class="w-full mb-4 px-3 py-2 border border-gray-300 rounded text-xs placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-blue-600" id="email" name="email" placeholder="jamesisters@gmail.com" type="email"/>
+    <label class="block text-sm font-normal mb-1" for="date">
+     Select a date
+    </label>
+    <input class="w-full mb-4 px-3 py-2 border border-gray-300 rounded text-xs placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-blue-600" id="date" name="date" placeholder="12/12/25" type="text"/>
+    <label class="block text-sm font-normal mb-1" for="installation">
+     Select the installation you need
+    </label>
+    <textarea class="w-full mb-4 px-3 py-2 border border-gray-300 rounded text-xs placeholder:text-gray-400 resize-none focus:outline-none focus:ring-1 focus:ring-blue-600" id="installation" name="installation" placeholder="Solar panel installation" rows="3"></textarea>
+    <button class="w-full bg-[#0f1f4d] text-white text-sm py-2 rounded" type="submit">
+     Book
+    </button>
+   </form>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-[#c4d0c3] text-[11px] text-black px-6 py-6">
+   <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between">
+    <div class="flex flex-col md:items-start md:w-1/3">
+     <img alt="Rolsa Technologies logo with green car and blue gears" class="h-10 w-auto mb-3" height="40" src="https://storage.googleapis.com/a1aa/image/1e75225d-6709-4fde-a5c7-e6b498081a9e.jpg" width="120"/>
+     <div class="flex space-x-4 mb-3">
+      <a aria-label="Instagram" class="text-black hover:text-gray-900 transition-colors duration-200" href="#">
+       <i class="fab fa-instagram text-lg">
+       </i>
+      </a>
+      <a aria-label="Facebook" class="text-black hover:text-gray-900 transition-colors duration-200" href="#">
+       <i class="fab fa-facebook-f text-lg">
+       </i>
+      </a>
+      <a aria-label="Email" class="text-black hover:text-gray-900 transition-colors duration-200" href="#">
+       <i class="fas fa-envelope text-lg">
+       </i>
+      </a>
+      <a aria-label="LinkedIn" class="text-black hover:text-gray-900 transition-colors duration-200" href="#">
+       <i class="fab fa-linkedin-in text-lg">
+       </i>
+      </a>
+     </div>
+     <div class="flex space-x-6">
+      <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+       PRIVACY POLICY
+      </a>
+      <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+       TERMS &amp; CONDITIONS
+      </a>
+     </div>
+    </div>
+    <div class="flex md:w-2/3 justify-end">
+     <div class="grid grid-cols-2 md:grid-cols-2 gap-y-4 gap-x-12 text-[11px]">
+      <div class="flex flex-col space-y-2">
+       <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+        About us
+       </a>
+       <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+        How to reduce carbon footprint
+       </a>
+       <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+        Optimising energy use
+       </a>
+       <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+        Electric Vehicle charging stations
+       </a>
+      </div>
+      <div class="flex flex-col space-y-2">
+       <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+        CTA requesting analysis
+       </a>
+       <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+        Green energy products
+       </a>
+       <a class="hover:text-gray-900 transition-colors duration-200" href="#">
+        Contact us
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
