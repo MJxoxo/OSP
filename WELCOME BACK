@@ -1,0 +1,140 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Rotsa Technologies
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   /* Custom font for the logo text to mimic the style */
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+  </style>
+ </head>
+ <body class="bg-white font-sans">
+  <!-- Header -->
+  <header class="flex items-center justify-between px-4 py-3 max-w-screen-xl mx-auto bg-[#b9c9b9]">
+   <div class="flex items-center space-x-2">
+    <img alt="Rotsa Technologies logo with green car and gears" class="w-[100px] sm:w-[120px] h-[40px] sm:h-[50px] object-contain" height="50" src="https://storage.googleapis.com/a1aa/image/9f721e35-7ccc-4ce7-87ee-3533be4e3df3.jpg" width="120"/>
+   </div>
+   <nav class="hidden md:flex space-x-4 lg:space-x-6 text-[12px] sm:text-[14px] text-black justify-end flex-1">
+    <a class="hover:text-[#0a1a00]" href="#">
+     Home
+    </a>
+    <a class="hover:text-[#0a1a00]" href="#">
+     About us
+    </a>
+    <a class="hover:text-[#0a1a00]" href="#">
+     Energy
+    </a>
+    <a class="hover:text-[#0a1a00]" href="#">
+     Carbon Calc
+    </a>
+    <a class="hover:text-[#0a1a00]" href="#">
+     Schedule
+    </a>
+   </nav>
+   <div class="text-black text-lg cursor-pointer ml-4">
+    <i class="fas fa-user-circle">
+    </i>
+   </div>
+  </header>
+  <!-- Removed blue sky image as requested -->
+  <!-- Welcome text bar -->
+  <div class="w-full bg-white text-center py-2 md:py-3 text-[18px] sm:text-[20px] md:text-[24px] font-light text-black max-w-screen-xl mx-auto">
+   Welcome [user]
+  </div>
+  <!-- Bookings, Installations, Log out nav bar centered -->
+  <nav class="bg-[#b9c9b9] max-w-screen-xl mx-auto flex justify-center space-x-4 sm:space-x-6 py-2 text-black font-semibold text-[14px] sm:text-[16px] md:text-[18px]">
+   <a class="hover:text-[#0a1a00]" href="#">
+    Bookings
+   </a>
+   <a class="hover:text-[#0a1a00]" href="#">
+    Installations
+   </a>
+   <a class="hover:text-[#0a1a00]" href="#">
+    Log out
+   </a>
+  </nav>
+  <!-- Main content with two rounded buttons -->
+  <main class="max-w-screen-xl mx-auto flex flex-col items-center space-y-6 sm:space-y-8 py-6 sm:py-8 px-4 bg-white">
+   <button aria-label="Check my rewards" class="relative rounded-full overflow-hidden w-[240px] sm:w-[280px] md:w-[320px] h-[100px] sm:h-[120px] md:h-[140px] flex items-center justify-center">
+    <img alt="Illustration of people with reward medal" class="absolute inset-0 w-full h-full object-cover" height="140" src="https://storage.googleapis.com/a1aa/image/9d567b6f-072c-4a44-febc-ea8411e69042.jpg" width="320"/>
+    <span class="relative z-10 font-bold text-[12px] sm:text-[14px] md:text-[16px] text-black">
+     Check my rewards
+    </span>
+   </button>
+   <button aria-label="Manage my consultations/installations" class="relative rounded-full overflow-hidden w-[240px] sm:w-[280px] md:w-[320px] h-[100px] sm:h-[120px] md:h-[140px] flex items-center justify-center">
+    <img alt="Illustration of worker with tools" class="absolute inset-0 w-full h-full object-cover" height="140" src="https://storage.googleapis.com/a1aa/image/5fa94e55-1b49-4441-0a1c-84e593b08246.jpg" width="320"/>
+    <span class="relative z-10 font-bold text-[12px] sm:text-[14px] md:text-[16px] text-black text-center leading-tight">
+     Manage my consultations/
+     <br/>
+     installations
+    </span>
+   </button>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-[#b9c9b9] max-w-screen-xl mx-auto px-4 py-6 flex flex-col md:flex-row md:justify-between text-black">
+   <div class="flex flex-col items-start space-y-4">
+    <img alt="Rotsa Technologies logo with green car and gears" class="w-[100px] sm:w-[120px] h-[40px] sm:h-[50px] object-contain" height="50" src="https://storage.googleapis.com/a1aa/image/9f721e35-7ccc-4ce7-87ee-3533be4e3df3.jpg" width="120"/>
+    <div class="flex space-x-4 text-lg text-black">
+     <a aria-label="Instagram" class="hover:text-[#0a1a00]" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a aria-label="Facebook" class="hover:text-[#0a1a00]" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a aria-label="Email" class="hover:text-[#0a1a00]" href="#">
+      <i class="fas fa-envelope">
+      </i>
+     </a>
+     <a aria-label="LinkedIn" class="hover:text-[#0a1a00]" href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+    </div>
+    <div class="flex flex-col space-y-1 text-[10px] sm:text-[11px] md:text-[12px] font-normal">
+     <a class="hover:text-[#0a1a00]" href="#">
+      PRIVACY POLICY
+     </a>
+     <a class="hover:text-[#0a1a00]" href="#">
+      TERMS &amp; CONDITIONS
+     </a>
+    </div>
+   </div>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-x-2 gap-y-6 text-black mt-6 md:mt-0 md:ml-40">
+    <div class="space-y-2">
+     <p class="text-[11px] sm:text-[12px] md:text-[14px]">
+      About us
+     </p>
+     <p class="text-[11px] sm:text-[12px] md:text-[14px]">
+      How to reduce carbon footprint
+     </p>
+     <p class="text-[11px] sm:text-[12px] md:text-[14px]">
+      Optimising energy use
+     </p>
+     <p class="text-[11px] sm:text-[12px] md:text-[14px]">
+      Electric Vehicle charging stations
+     </p>
+    </div>
+    <div class="space-y-2">
+    </div>
+    <div class="space-y-2">
+     <p class="text-[11px] sm:text-[12px] md:text-[14px]">
+      CTA requesting analysis
+     </p>
+     <p class="text-[11px] sm:text-[12px] md:text-[14px]">
+      Green energy products
+     </p>
+     <p class="text-[11px] sm:text-[12px] md:text-[14px]">
+      Contact us
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
