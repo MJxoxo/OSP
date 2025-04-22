@@ -1,0 +1,284 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Relsa Technologies
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   /* Custom letter spacing for BENEFITS */
+    .tracking-widest-custom {
+      letter-spacing: 0.3em;
+    }
+  </style>
+ </head>
+ <body class="bg-white text-black font-sans">
+  <!-- Header -->
+  <header class="bg-[#b9c9b9]">
+   <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
+    <div class="flex items-center space-x-2">
+     <img alt="Relsa Technologies logo with green car and blue gears" class="h-8 w-auto" height="32" src="https://storage.googleapis.com/a1aa/image/1b581cb0-fa17-42ae-25a0-3e0f3ad69bd6.jpg" width="96"/>
+    </div>
+    <nav class="hidden md:flex space-x-6 text-sm text-black items-center">
+     <a class="hover:text-[#0e1743] transition" href="#">
+      Home
+     </a>
+     <a class="hover:text-[#0e1743] transition" href="#">
+      About us
+     </a>
+     <a class="hover:text-[#0e1743] transition" href="#">
+      Energy
+     </a>
+     <a class="hover:text-[#0e1743] transition" href="#">
+      Carbon Calc
+     </a>
+     <a class="hover:text-[#0e1743] transition" href="#">
+      Schedule
+     </a>
+     <button aria-label="User account" class="text-black hover:text-[#0e1743] transition">
+      <i class="fas fa-user-circle text-lg">
+      </i>
+     </button>
+    </nav>
+   </div>
+  </header>
+  <!-- Main content -->
+  <main class="max-w-7xl mx-auto px-4 py-10">
+   <!-- 3 columns -->
+   <section class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center mb-12">
+    <!-- Card 1 -->
+    <article>
+     <h3 class="font-bold text-sm mb-3">
+      Smart home energy management systems
+     </h3>
+     <img alt="Person holding smartphone with glowing smart home energy icons floating above" class="mx-auto mb-3 max-w-[280px] w-full h-auto object-contain" height="140" src="https://storage.googleapis.com/a1aa/image/1e7d6481-3bd9-4dad-6231-7384826f8dea.jpg" width="280"/>
+     <p class="text-gray-600 mb-5 text-xs">
+      Description of smart home energy management systems
+     </p>
+     <button class="bg-[#121f57] text-white text-xs rounded-full px-5 py-2 hover:bg-[#0e1743] transition">
+      Find a quote
+     </button>
+    </article>
+    <!-- Card 2 -->
+    <article>
+     <h3 class="font-bold text-sm mb-3">
+      Electric vehicle charging stations
+     </h3>
+     <img alt="Electric vehicles parked at charging stations in a garage" class="mx-auto mb-3 max-w-[280px] w-full h-auto object-contain" height="140" src="https://storage.googleapis.com/a1aa/image/54b56e96-6fc2-4f00-485a-6ce89dc664dc.jpg" width="280"/>
+     <p class="text-gray-600 mb-5 text-xs">
+      Description of electric vehicle charging stations
+     </p>
+     <button class="bg-[#121f57] text-white text-xs rounded-full px-5 py-2 hover:bg-[#0e1743] transition">
+      Find a quote
+     </button>
+    </article>
+    <!-- Card 3 -->
+    <article>
+     <h3 class="font-bold text-sm mb-3">
+      Solar panel installation / maintenance
+     </h3>
+     <img alt="Blue solar panels installed on a white background" class="mx-auto mb-3 max-w-[280px] w-full h-auto object-contain" height="140" src="https://storage.googleapis.com/a1aa/image/775399cd-f82e-47a6-6244-47dc599c7b3c.jpg" width="280"/>
+     <p class="text-gray-600 mb-5 text-xs">
+      Description of solar panel installation / maintenance
+     </p>
+     <button class="bg-[#121f57] text-white text-xs rounded-full px-5 py-2 hover:bg-[#0e1743] transition">
+      Find a quote
+     </button>
+    </article>
+   </section>
+   <!-- Benefits heading -->
+   <h2 class="text-center text-gray-700 text-xs font-light tracking-widest-custom mb-3" style="letter-spacing: 0.3em">
+    BENEFITS
+   </h2>
+   <!-- Benefits list -->
+   <ul class="max-w-4xl mx-auto text-[10px] text-gray-700 list-disc list-inside mb-12">
+    <li>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    </li>
+    <li>
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+    </li>
+    <li>
+     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    </li>
+    <li>
+     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    </li>
+    <li>
+     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+    </li>
+   </ul>
+   <!-- Latest reviews -->
+   <section>
+    <h3 class="font-bold text-xs mb-6">
+     Latest reviews
+    </h3>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+     <!-- Review 1 -->
+     <article class="border border-gray-200 rounded-md p-4 text-xs text-gray-700 flex flex-col justify-between">
+      <div class="mb-4">
+       <div class="mb-2 text-yellow-400">
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+       </div>
+       <p>
+        "My energy bills have plummeted! Love being able to control
+              everything from my phone."
+       </p>
+      </div>
+      <div class="flex items-center space-x-2">
+       <img alt="Reviewer profile picture of a person with short hair" class="rounded-full w-5 h-5 object-cover" height="20" src="https://storage.googleapis.com/a1aa/image/96586497-6502-4b61-697f-445ddb586542.jpg" width="20"/>
+       <div class="text-gray-500">
+        <p class="font-semibold text-[9px] leading-none">
+         Reviewer name
+        </p>
+        <p class="text-[8px] leading-none">
+         Date
+        </p>
+       </div>
+      </div>
+     </article>
+     <!-- Review 2 -->
+     <article class="border border-gray-200 rounded-md p-4 text-xs text-gray-700 flex flex-col justify-between">
+      <div class="mb-4">
+       <div class="mb-2 text-yellow-400">
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+       </div>
+       <p>
+        "So convenient! Scheduling lights and appliances has made my life so
+              much easier."
+       </p>
+      </div>
+      <div class="flex items-center space-x-2">
+       <img alt="Reviewer profile picture of a person with long hair" class="rounded-full w-5 h-5 object-cover" height="20" src="https://storage.googleapis.com/a1aa/image/e718b9ec-58d1-48cc-4d63-801322af4285.jpg" width="20"/>
+       <div class="text-gray-500">
+        <p class="font-semibold text-[9px] leading-none">
+         Reviewer name
+        </p>
+        <p class="text-[8px] leading-none">
+         Date
+        </p>
+       </div>
+      </div>
+     </article>
+     <!-- Review 3 -->
+     <article class="border border-gray-200 rounded-md p-4 text-xs text-gray-700 flex flex-col justify-between">
+      <div class="mb-4">
+       <div class="mb-2 text-yellow-400">
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+       </div>
+       <p>
+        Finally, I understand my energy usage! The data insights are really
+              helpful."
+       </p>
+      </div>
+      <div class="flex items-center space-x-2">
+       <img alt="Reviewer profile picture of a person with short hair and glasses" class="rounded-full w-5 h-5 object-cover" height="20" src="https://storage.googleapis.com/a1aa/image/70f97c5e-9bc3-4041-f2de-1543ee4f4cff.jpg" width="20"/>
+       <div class="text-gray-500">
+        <p class="font-semibold text-[9px] leading-none">
+         Reviewer name
+        </p>
+        <p class="text-[8px] leading-none">
+         Date
+        </p>
+       </div>
+      </div>
+     </article>
+    </div>
+   </section>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-[#b9c9b9] mt-20">
+   <div class="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-xs text-gray-900 items-center">
+    <div>
+     <img alt="Relsa Technologies logo with green car and blue gears" class="mb-4 h-8 w-auto" height="32" src="https://storage.googleapis.com/a1aa/image/1b581cb0-fa17-42ae-25a0-3e0f3ad69bd6.jpg" width="96"/>
+     <div class="flex space-x-4 mb-2 text-lg text-black">
+      <a aria-label="Instagram" class="hover:text-[#0e1743] transition" href="#">
+       <i class="fab fa-instagram">
+       </i>
+      </a>
+      <a aria-label="Facebook" class="hover:text-[#0e1743] transition" href="#">
+       <i class="fab fa-facebook-f">
+       </i>
+      </a>
+      <a aria-label="Email" class="hover:text-[#0e1743] transition" href="#">
+       <i class="fas fa-envelope">
+       </i>
+      </a>
+      <a aria-label="LinkedIn" class="hover:text-[#0e1743] transition" href="#">
+       <i class="fab fa-linkedin-in">
+       </i>
+      </a>
+     </div>
+     <div class="flex space-x-6 font-extrabold text-[9px] text-black">
+      <a class="hover:text-[#0e1743] transition" href="#">
+       PRIVACY POLICY
+      </a>
+      <a class="hover:text-[#0e1743] transition" href="#">
+       TERMS &amp; CONDITIONS
+      </a>
+     </div>
+    </div>
+    <div class="hidden md:block"></div>
+    <div class="flex flex-col space-y-3 text-gray-900 text-right">
+     <div class="grid grid-cols-2 gap-x-12">
+      <div class="flex flex-col space-y-3">
+       <a class="hover:text-[#0e1743] transition" href="#">
+        About us
+       </a>
+       <a class="hover:text-[#0e1743] transition" href="#">
+        How to reduce carbon footprint
+       </a>
+       <a class="hover:text-[#0e1743] transition" href="#">
+        Optimising energy use
+       </a>
+       <a class="hover:text-[#0e1743] transition" href="#">
+        Electric Vehicle charging stations
+       </a>
+      </div>
+      <div class="flex flex-col space-y-3">
+       <a class="hover:text-[#0e1743] transition" href="#">
+        CTA requesting analysis
+       </a>
+       <a class="hover:text-[#0e1743] transition" href="#">
+        Green energy products
+       </a>
+       <a class="hover:text-[#0e1743] transition" href="#">
+        Contact us
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
